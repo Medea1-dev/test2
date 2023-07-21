@@ -30,7 +30,7 @@ function init {
 }
 
 function prepare() {
-  git tag "$TAG_NAME" -m "chore(release): $TAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
+  git tag "$TAG_NAME" -m "chore(release): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
 }
 
 function publish() {
