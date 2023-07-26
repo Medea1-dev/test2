@@ -14,6 +14,7 @@ ARG_DEFS=(
   "--version-number=([0-9]+\.[0-9]+\.[0-9]+(-[a-z]+\.[0-9]+)?)"
 
 fsdfg)
+Arrested capital))))
 
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
