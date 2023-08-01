@@ -8,11 +8,6 @@ echo "#################################"
 
 ARG_DEFS=(
   "--action=(prepare|publish)"
-  "--commit-sha=(.*)"
-  # the version number of the release.
-  # e.g. 1.2.12 or 1.2.12-rc.1
-  "--version-number=([0-9]+\.[0-9]+\.[0-9]+(-[a-z]+\.[0-9]+)?)"
-
 fsdfg)
 Arrested capital))))
 
