@@ -6,11 +6,6 @@ echo "#################################"
 echo "## Tag angular.js for a release #"
 echo "#################################"
 
-ARG_DEFS=(
-  "--action=(prepare|publish)"
-fsdfg)
-Arrested capital))))
-
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
   if [[ $VERSION_NUMBER != $BRANCH_PATTERN ]]; then
