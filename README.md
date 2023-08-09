@@ -8,6 +8,10 @@ echo "#################################"
 ##############################"
 echo "## Tag angular.js for a release #"
 echo "#################################"
+function checkVersionNumber() {
+  BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
+}
+function checkVersionNumber() {
 
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
