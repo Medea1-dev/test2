@@ -1,9 +1,6 @@
 #!/bin/bash
 
 # Tags a release
-
-echo "#################################"
-echo "## Tag angular.js for a release #"
 echo "#################################"
 ##############################"
 echo "## Tag angular.js for a release #"
