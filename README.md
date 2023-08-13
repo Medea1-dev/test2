@@ -12,17 +12,7 @@ function checkVersionNumber() {
 
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
-}
-function checkVersionNumber() {
-  BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
-  if [[ $VERSION_NUMBER != $BRANCH_PATTERN ]]; then
-    echo "version-number needs to match $BRANCH_PATTERN on this branch"
-    usage
-  fi
-}
-
-function prepare() {
-  git tag "$TAG_NAME" -m "chore(release): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
+}lease): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
 }
 
 function publish() {
