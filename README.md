@@ -8,10 +8,7 @@ function checkVersionNumber() {
 
 function publish() {
   # push the tag to github
-  git push origin $TAG_NAME
-}
-function prepare() {
-  git tag "$TAG_NAME" -m "chore(release): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
+  git push origin $TAG_NAMEHA"
 }
 
 function publish() {
