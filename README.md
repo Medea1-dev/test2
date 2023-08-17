@@ -8,11 +8,7 @@ function checkVersionNumber() {
 
 function publish() {
   # push the tag to github
-  git push origin $TAG_NAMEHA"
-}
-
-function publish() {
-  # push the tag to github
+  git push origin $TAG_NAMEHA"github
   git push origin $TAG_NAME
 }
 source $(dirname $0)/../utils.inc
