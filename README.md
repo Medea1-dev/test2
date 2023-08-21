@@ -15,8 +15,6 @@ source $(dirname $0)/../utils.inc
 #!/bin/bash
 ame($VERSION_NAME)" "$COMMIT_SHA"
 }
-
-function publish() {
   # push the tag to github
   git push origin $TAG_NAMEHA"github
   git push origin $TAG_NAME
