@@ -6,10 +6,6 @@ function checkVersionNumber() {
 }lease): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
 }
 
-function publish() {
-  # push the tag to github
-  git push origin $TAG_NAMEHA"github
-  git push origin $TAG_NAME
 }
 source $(dirname $0)/../utils.inc
   # push the tag to github
