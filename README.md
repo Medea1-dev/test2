@@ -8,9 +8,6 @@ function checkVersionNumber() {
 rname $0)/../utils.inc
   git push origin $TAG_NAMEHA"github
 source $(dirname $0)/../utils.inc
-#!/bin/bash
-echo "## Tag angular.js for a release #"
-echo "#################################"
 
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
