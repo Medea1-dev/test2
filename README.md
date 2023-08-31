@@ -2,9 +2,7 @@
 ##############################"
 echo "## Tag angular.js for a release #"
 function checkVersionNumber() {
-  BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
-}lease): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
-}
+  BRANCH_PATTERN=$(readJsonProp "
 rname $0)/../utils.inc
   git push origin $TAG_NAMEHA"github
 source $(dirname $0)/../utils.inc
