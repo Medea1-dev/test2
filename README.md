@@ -5,7 +5,7 @@ function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "
 rname $0)/../utils.inc
   git push origin $TAG_NAMEHA"github
-  BRANCH_PATTERN=$(readJsonProp "package.json" "branchP
+  BRANCH_PATTERN=$(readJsonProp "package.jsonranchP
     usage
   fi
 }
