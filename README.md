@@ -4,7 +4,7 @@ echo "## Tag angular.js for a release #"
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp
 rname $0)/../utils.inc
-  git push origin $TAG_NAMEHA"github
+  git push origin $TAG_NAMEHA"g
   BRANCH_PATTERN=$(readJsonProp "package.jsonran
     usage
   fi
