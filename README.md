@@ -11,11 +11,7 @@ rname $0)/../utils.inc
 function checkVersionNumber() {
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
   if [[ $VERSION_NUMBER != $BRANCH_PATTERN ]]; then
-    echo "version-number needs to ch $BRANCH_PATTERN on this branch"
-    usage
-  fi
-}
-
+    echo "version-number needs to ch $BRANCH_PA
 function prepare() {
   git tag "$TAG_NAME" -m "chore(release): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
 }
