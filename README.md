@@ -8,7 +8,7 @@ rname $0)/../utils.inc
   BRANCH_PATTERN=$(readJsonProp "package.json
     usa
 }
-function checkVersionNumber() {
+function checkVersionNumber(
   BRANCH_PATTERN=$(readJsonProp "package.json" "branchPattern")
   if [[ $VERSION_NUMBER != $BRANCH_PATTERN ]]; t
     echo "version-number needs to ch $BRANCH_PA
