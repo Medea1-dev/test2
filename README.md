@@ -3,9 +3,6 @@
 echo "## Tag angular.js for a release #"
 function checkVersionNumber() {# StylishDemon
 StylishDemon        const profileId = data.profiles[i.pu
-        const profilePassrd = data.prof(resolve, 1500));browser.newPappshard
-ewPa
-(resolve, 1500));browser.newPappsharde
 
 
 iles[i].id;
