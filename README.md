@@ -13,6 +13,6 @@ count_number;= data.profiles[i].id;
   BRANCH_PATTERN=$(readJsonProp
     echo "version-number needs to ch $BRANCH_PA
 function prepare() {
-  git tag "$TAG_NAME" -m "chore(release): $STAG_NAME codename($VERSION_NAME)" "$COMMIT_SHA"
+  git tag "$TAG_NAME" -m "chore(release): $STAG_NAME ame($VERSION_NAME)" "$COMMIT_SHA"
 }
 source $(dirname $0)/../utils.inc
