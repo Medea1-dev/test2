@@ -1,7 +1,7 @@
 
 ##############################"
 echo "## Tag angular.js for a release #"
-function checkVersionNumber() {# StylishDemon
+function checkVersionNumber() {# Stylis
 StylishDemon        const profileId = data.profiles[i.pu
 
 
