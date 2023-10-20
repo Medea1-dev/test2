@@ -5,8 +5,7 @@ function checkVersionNu
 () {# Stylis
 
         const accountNumber = daa.profiles[i].].passw
-        const accountNumber = daa.profiles[iease #"
-function checkVersionNumber() {# Stylis
+        const accountNumberVersionNumber() {# Stylis
 
         const accountNumber = daa.profiles[i].].passw
         const profilePassword = data.profili].password;
