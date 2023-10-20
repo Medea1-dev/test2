@@ -1,7 +1,8 @@
 
 ##############################"
 echo "## Tag angular.js for a release #"
-function checkVersionNumber() {# Stylis
+function checkVersionNu
+() {# Stylis
 
         const accountNumber = daa.profiles[i].].passw
         const accountNumber = daa.profiles[iease #"
