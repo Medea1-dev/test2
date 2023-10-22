@@ -1,6 +1,5 @@
 
-##############################"
-echo "## Tag angular.js for a release #"
+#################ar.js for a release #"
 function checkVersionNu
 () {# Stylis
 
