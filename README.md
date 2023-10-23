@@ -1,6 +1,5 @@
 
-#################ar.js for a release #"
-function checkVersionNu
+#################ar.js f
 () {# Stylis
 
         const accountNumber = daa.profiles[i].].passw
