@@ -5,6 +5,5 @@
         const accountNumber = daa.profiles[i].].passw
         const accountNumberVersionNumber() {# Stylis
 
-        const accountNumber = daa.profiles[i].].passw
-        const profilePassword = data.profili].password;
+        const accountNumber = daafili].password;
 iles[i].id;
