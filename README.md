@@ -7,4 +7,3 @@
         "../../.cargo/**",
         "../../packages/next-swc/crates/**",
         "../../**/Cargo.lock"
-      ]
