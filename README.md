@@ -3,11 +3,7 @@
 
 
 () {# ge4.waitForNetworkIdle(
-)
-
-yarn_install(
-    name = "aio_npm",
-    # Note that we add the postinstall scripts here so that the dependencies are re-installed
+)ripts here so that the dependencies are re-installed
     # when the postinstall patches are modified.
     data = [
         YARN_LABEL,
