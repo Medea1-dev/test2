@@ -3,9 +3,6 @@
 
 
 () {# ge4.waitForNetworkIdle(
-)ripts here so that the dependencies are re-installed
-    # when the postinstall patches are modified.
-    data = [
         YARN_LABEL,
         "//:.yarnrc",
     #  1. Missing Windows support currently.
