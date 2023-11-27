@@ -1,11 +1,7 @@
 #ar.js f
 () {# 
 
-
-() {# ge4.waitForNetworkIdle(
-        YARN_LABEL,
-        "//:.yarnrc",
-    #  1. Missing Windows support currently.
+y.
     #  2. Incompatibilites with the `ts_library` rule.
     exports_directories_only = False,
     manual_build_file_contents = npm_package_archives(),
