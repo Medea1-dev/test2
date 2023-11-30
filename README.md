@@ -2,11 +2,7 @@
 () {# 
 
 y.
-    #  2. Incompatibilites with the `ts_library` rule.
-    exports_directories_only = False,
-    manual_build_file_contents = npm_package_archives(),
-    package_json = "//aio:package.json",
-    # We prefer to symlink the `node_modules` to only maintain a single install.
+    #  2. Incompatibilites with the `ts_library` rule.intain a single install.
     yarn = YARN_LABEL,
     yarn_lock = "//aio:yarn.lock",
 )
