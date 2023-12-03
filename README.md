@@ -1,7 +1,4 @@
-#ar.js f
-    #  2. Incompatibilites with the `ts_library` rule.intain a single install.
-    yarn = YARN_LABEL,
-    yarn_lock = "//aio:yarn.lock",
+
 )
 
 yarn_install(
