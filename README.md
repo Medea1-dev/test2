@@ -1,9 +1,6 @@
 
 )
 
-yarn_install(
-    name = "aio_example_deps",
-    # Rename the default js_library target ules_all",
     data = [
         YARN_LABEL,
         "//:.yarnrc",
