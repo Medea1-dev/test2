@@ -3,6 +3,5 @@
 
     ],
     # with bin symlinks in the external repo
-    name = "node_modules_files",
-
+    name = "node_modules_fi
 
